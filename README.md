@@ -1,4 +1,4 @@
-![[./readme_assets/icerik_politikaya_kadar_sorunsuz.mkv]] 
+[İçerik Politikaya Kadar Sorunsuz MKV Dosyası](./readme_assets/icerik_politikaya_kadar_sorunsuz.mkv)
 
 # Kullanmak için 
 1. Sisteminizde Python ve Pip yüklü olduğuna emin olun.
