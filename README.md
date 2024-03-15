@@ -41,11 +41,7 @@ dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
 
 14. projeyi çalıştırın.
 	1. `python selenium_bing_imagecreator.py`
-
-
-
-# Proje Ön izlemesi
-https://www.youtube.com/watch?v=pWwOF7kNi4U
+<hr>
 
 # Hedefler
 
