@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
 	2. `source .venv/bin/activate`
 4. virtual environment'a gerekli bağımlılıkları yükleyin
 	1. `pip install selenium`
-        2. `pip install beautifulsoup4`
+        2.  `pip install beautifulsoup4`
         3. `pip install pyotp`
         4. `pip install requests` 
 5. "31. satırdaki" `librewolf_path = "/usr/bin/firefox"` alanına kullacağınız tarayıcının çalıştırılabilir program yolunu giriniz.
