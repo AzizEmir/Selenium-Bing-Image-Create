@@ -32,8 +32,8 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
 librewolf_options.set_preference("browser.download.dir", "/home/aziz/İndirilenler/selenium_fotolar")  # İndirme dizini
 ```
 
-12. "24. satırdaki" yol ile "230. satıdaki" `source_directory` nin aynı olması gereklidir.
-13. "231. satırdaki" `dest_directory` kendi sisteminize göre değiştirin.
+13. "24. satırdaki" yol ile "230. satıdaki" `source_directory` nin aynı olması gereklidir.
+14. "231. satırdaki" `dest_directory` kendi sisteminize göre değiştirin.
 
 ```python
 # Kaynak ve hedef dizinlerini belirle
@@ -41,8 +41,8 @@ source_directory = "/home/aziz/İndirilenler/selenium_fotolar"
 dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
 ```
 
-14. projeyi çalıştırın.
-	1. `python selenium_bing_imagecreator.py`
+15. projeyi çalıştırın.
+   1. `python selenium_bing_imagecreator.py`
 <hr>
 
 # Hedefler
