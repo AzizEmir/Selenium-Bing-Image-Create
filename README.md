@@ -13,12 +13,12 @@ https://odysee.com/@azizemir:1/icerik_politikaya_kadar_sorunsuz:9
 7. Eğer hesabınızda TOTP ile 2 Faktörlü doğrulama sistemi kullanıyorsanız;
 	1. "84. satırdaki" `totp_key = ""` çift tırnak içerisine anahtarınızı giriniz.
 8. Hesabınızla ilk kez Bing'in sitesinde kullanıyorsanız bu projeyi çalıştırmadan önce siteye giderek "Kişisel hesapla oturum açın" seçeneğini seçin.
-[bing site](./readme_assets/bing_site.png)
+ <img src="./readme_assets/bing_site.png">
 10. metinlerKlasor adındaki klasörün içerisine txt dosyalarınızı atın. 
 	1. dosyaların SIRANUMARASI-DOSYAADI.txt şeklinde olması gereklidir. örnek: 
-	2. (ornek_metinlerKlasor)[./readme_assets/ornek_metinlerKlasor.png]
+	2. <img src="./readme_assets/ornek_metinlerKlasor.png">
 	3. txt dosyalarının içinde büyük harflerle yazılmış bir başlık olmalıdır. Bu başlık resimler oluşturulduktan sonra başlık adı ile aynı olan klasörün içine kopyalanacaktır.
-	4. (ornek_Metin)[./readme_assets/ornek_Metin.png]
+	4. <img src="readme_assets/ornek_Metin.png">
 11. "24. satırdaki" tarayıcının indirme yolunu kendi sisteminizin indirme yolu ile değiştirin.
 
 ```python
