@@ -61,5 +61,5 @@ dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
    1. Eğer metinlerKlasor adındaki klasörün içerisindeki txt dosyanız'ın içeriği İçerik politikası kurallarına takılırsa projeyi durdurmalı, txt dosyanızın metnini değiştirmeli yada direkt o dosyayı metinlerKlasor adındaki klasör'den çıkartmalı sonrasında kodu yeniden başlatmalısınız.
 ![Ekran Görüntüsü - 2024-03-15 12-42-57](https://github.com/AzizEmir/Selenium-Bing-Image-Create/assets/101357256/0c1fb80f-02e7-4dd9-85e8-be8ad563e273)
    2. Belirli durumlar belirli süre içinde gerçekleşmezse hataya neden olur. Örneğin çerezleri kabul et penceresi 8 saniye içerisinde gözükmezde sonrasında gözükürse, indir butonuna tıklanmayacağı için kod devam etmeyecektir.
+![Ekran Görüntüsü - 2024-03-15 13-52-54](https://github.com/AzizEmir/Selenium-Bing-Image-Create/assets/101357256/d017e81e-9bc0-4205-991a-07ce04dd3e2c)
 ![Ekran Görüntüsü - 2024-03-15 13-54-32](https://github.com/AzizEmir/Selenium-Bing-Image-Create/assets/101357256/680022d6-c02c-4b62-99d1-1c07dc0f0831)
-
