@@ -13,21 +13,23 @@
 	1. 84. satırdaki `totp_key = ""` çift tırnak içerisine anahtarınızı giriniz.
 8. Hesabınızla ilk kez Bing'in sitesinde kullanıyorsanız bu projeyi çalıştırmadan önce siteye giderek "Kişisel hesapla oturum açın" seçeneğini seçin.
 ![[./readme_assets/bing_site.png]]
-1. metinlerKlasor adındaki klasörün içerisine txt dosyalarınızı atın. 
+9. metinlerKlasor adındaki klasörün içerisine txt dosyalarınızı atın. 
 	1. dosyaların SIRANUMARASI-DOSYAADI.txt şeklinde olması gereklidir. örnek: 
 	2. ![[./readme_assets/ornek_metinlerKlasor.png]]
 	3. txt dosyalarının içinde büyük harflerle yazılmış bir başlık olmalıdır. Bu başlık resimler oluşturulduktan sonra başlık adı ile aynı olan klasörün içine kopyalanacaktır.
 	4. ![[./readme_assets/ornek_Metin.png]]
-2. 24. satırdaki tarayıcının indirme yolunu kendi sisteminizin indirme yolu ile değiştirin.
+10. 24. satırdaki tarayıcının indirme yolunu kendi sisteminizin indirme yolu ile değiştirin.
 ```python
 librewolf_options.set_preference("browser.download.dir", "/home/aziz/İndirilenler/selenium_fotolar")  # İndirme dizini
 ```
-1. 24. satırdaki yol ile 230. satıdaki `source_directory` nin aynı olması gereklidir.
-2. 231. satırdaki `dest_directory` kendi sisteminize göre değiştirin.
+11. 24. satırdaki yol ile 230. satıdaki `source_directory` nin aynı olması gereklidir.
+12. 231. satırdaki `dest_directory` kendi sisteminize göre değiştirin.
+
 ```python
 # Kaynak ve hedef dizinlerini belirle
 source_directory = "/home/aziz/İndirilenler/selenium_fotolar"
 dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
 ```
-1. projeyi çalıştırın.
+
+13. projeyi çalıştırın.
 	1. `python selenium_bing_imagecreator.py`
