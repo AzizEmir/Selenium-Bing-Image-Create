@@ -1,7 +1,5 @@
-<video controls width="500">
-  <source src="https://odysee.com/@azizemir:1/icerik_politikaya_kadar_sorunsuz:9" type="video/mp4">
-  Tarayıcınız video etiketini desteklemiyor.
-</video>
+
+https://odysee.com/@azizemir:1/icerik_politikaya_kadar_sorunsuz:9
 
 # Kullanmak için 
 1. Sisteminizde Python ve Pip yüklü olduğuna emin olun.
