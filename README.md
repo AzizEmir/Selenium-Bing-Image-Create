@@ -6,12 +6,17 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
 3. python ile virtual environment oluşturun ve etkinleştirin.
 	1. `python3 -m venv .venv`
 	2. `source .venv/bin/activate`
-4. "31. satırdaki" `librewolf_path = "/usr/bin/firefox"` alanına kullacağınız tarayıcının çalıştırılabilir program yolunu giriniz.
-5. "51. satırdaki" `email_kutusu.send_keys("EMAIL")` bölümüne Bing sitesinde kullanacağınız mail adresinizi giriniz.
-6. "61. satırdaki" `parola_kutusu.send_keys("PASSWORD")` mail adresinizin parolasını yazın.
-7. Eğer hesabınızda TOTP ile 2 Faktörlü doğrulama sistemi kullanıyorsanız;
+4. virtual environment'a gerekli bağımlılıkları yükleyin
+	1. `pip install selenium`
+        2. `pip install beautifulsoup4`
+        3. `pip install pyotp`
+        4. `pip install requests` 
+5. "31. satırdaki" `librewolf_path = "/usr/bin/firefox"` alanına kullacağınız tarayıcının çalıştırılabilir program yolunu giriniz.
+6. "51. satırdaki" `email_kutusu.send_keys("EMAIL")` bölümüne Bing sitesinde kullanacağınız mail adresinizi giriniz.
+7. "61. satırdaki" `parola_kutusu.send_keys("PASSWORD")` mail adresinizin parolasını yazın.
+8. Eğer hesabınızda TOTP ile 2 Faktörlü doğrulama sistemi kullanıyorsanız;
 	1. "84. satırdaki" `totp_key = ""` çift tırnak içerisine anahtarınızı giriniz.
-8. Hesabınızla ilk kez Bing'in sitesinde kullanıyorsanız bu projeyi çalıştırmadan önce siteye giderek "Kişisel hesapla oturum açın" seçeneğini seçin.
+9. Hesabınızla ilk kez Bing'in sitesinde kullanıyorsanız bu projeyi çalıştırmadan önce siteye giderek "Kişisel hesapla oturum açın" seçeneğini seçin.
  <img src="./readme_assets/bing_site.png">
 10. metinlerKlasor adındaki klasörün içerisine txt dosyalarınızı atın. 
 	1. dosyaların SIRANUMARASI-DOSYAADI.txt şeklinde olması gereklidir. örnek: 
@@ -24,8 +29,8 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
 librewolf_options.set_preference("browser.download.dir", "/home/aziz/İndirilenler/selenium_fotolar")  # İndirme dizini
 ```
 
-11. "24. satırdaki" yol ile "230. satıdaki" `source_directory` nin aynı olması gereklidir.
-12. "231. satırdaki" `dest_directory` kendi sisteminize göre değiştirin.
+12. "24. satırdaki" yol ile "230. satıdaki" `source_directory` nin aynı olması gereklidir.
+13. "231. satırdaki" `dest_directory` kendi sisteminize göre değiştirin.
 
 ```python
 # Kaynak ve hedef dizinlerini belirle
@@ -33,5 +38,5 @@ source_directory = "/home/aziz/İndirilenler/selenium_fotolar"
 dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
 ```
 
-13. projeyi çalıştırın.
+14. projeyi çalıştırın.
 	1. `python selenium_bing_imagecreator.py`
