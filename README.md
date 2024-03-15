@@ -1,5 +1,4 @@
-
-https://odysee.com/@azizemir:1/icerik_politikaya_kadar_sorunsuz:9
+https://www.youtube.com/watch?v=pWwOF7kNi4U
 
 # Kullanmak için 
 1. Sisteminizde Python ve Pip yüklü olduğuna emin olun.
