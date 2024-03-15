@@ -41,8 +41,9 @@ source_directory = "/home/aziz/İndirilenler/selenium_fotolar"
 dest_directory = "/home/aziz/Masaüstü/selenium_bing/sonuclar/"
 ```
 
-15. projeyi çalıştırın.
+15. projeyi çalıştırın
    1. `python selenium_bing_imagecreator.py`
+      
 <hr>
 
 # Hedefler
