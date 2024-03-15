@@ -8,10 +8,10 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
 	1. `python3 -m venv .venv`
 	2. `source .venv/bin/activate`
 4. virtual environment'a gerekli bağımlılıkları yükleyin
-	i. `pip install selenium`
-        ii.  `pip install beautifulsoup4`
-        iii. `pip install pyotp`
-        iv. `pip install requests` 
+   1. `pip install selenium`
+   2. `pip install beautifulsoup4`
+   3. `pip install pyotp`
+   4. `pip install requests` 
 5. "31. satırdaki" `librewolf_path = "/usr/bin/firefox"` alanına kullacağınız tarayıcının çalıştırılabilir program yolunu giriniz.
 6. "51. satırdaki" `email_kutusu.send_keys("EMAIL")` bölümüne Bing sitesinde kullanacağınız mail adresinizi giriniz.
 7. "61. satırdaki" `parola_kutusu.send_keys("PASSWORD")` mail adresinizin parolasını yazın.
@@ -22,10 +22,10 @@ https://www.youtube.com/watch?v=pWwOF7kNi4U
  <img src="./readme_assets/bing_site.png">
 
 11. metinlerKlasor adındaki klasörün içerisine txt dosyalarınızı atın. 
-	1. dosyaların SIRANUMARASI-DOSYAADI.txt şeklinde olması gereklidir. örnek: 
-	2. <img src="./readme_assets/ornek_metinlerKlasor.png">
+	1. dosyaların SIRANUMARASI-DOSYAADI.txt şeklinde olması gereklidir. 
+	örnek:  <br> <img src="./readme_assets/ornek_metinlerKlasor.png">
 	3. txt dosyalarının içinde büyük harflerle yazılmış bir başlık olmalıdır. Bu başlık resimler oluşturulduktan sonra başlık adı ile aynı olan klasörün içine kopyalanacaktır.
-	4. <img src="readme_assets/ornek_Metin.png">
+	<br> <img src="readme_assets/ornek_Metin.png">
 12. "24. satırdaki" tarayıcının indirme yolunu kendi sisteminizin indirme yolu ile değiştirin.
 
 ```python
